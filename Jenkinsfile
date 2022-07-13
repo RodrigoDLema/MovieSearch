@@ -10,6 +10,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                bat 'npm install pm2 -g'
                 bat 'npm install'
             }
         }
