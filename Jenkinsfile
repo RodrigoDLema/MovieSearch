@@ -21,9 +21,8 @@ pipeline {
                 }
                 stage('Deliver') {
                             steps {
-                                bat './jenkins/scripts/deliver.bat'
-                                input message: 'Finished using the web site? (Click "Proceed" to continue)'
-                                bat './jenkins/scripts/kill.bat'
+                                bat 'pm2 start src\\index.js --name myapp'
+
                             }
                         }
 
