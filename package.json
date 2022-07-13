@@ -2,6 +2,7 @@
   "homepage": "https://giedresavickiene.github.io/Build-MovieSearch-Engine/",
   "name": "my-app",
   "version": "0.1.0",
+  "type":"module",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
