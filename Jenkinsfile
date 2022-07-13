@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                git 'https://github.com/Yosoyquemero/MovieSearch.git'
+                bat 'npm install'
             }
         }
         stage('Test') {
