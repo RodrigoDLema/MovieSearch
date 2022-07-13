@@ -21,7 +21,7 @@ pipeline {
                 }
                 stage('Deliver') {
                             steps {
-                                bat 'pm2 start src\\index.js --name myapp'
+                                bat 'pm2 start src\\App.js --name myapp'
 
                             }
                         }
