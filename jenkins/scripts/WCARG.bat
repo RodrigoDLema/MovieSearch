@@ -1,4 +1,5 @@
-git 'https://github.com/Yosoyquemero/WCARG.git'
+//git 'https://github.com/Yosoyquemero/WCARG.git'
+git clone https://github.com/Yosoyquemero/WCARG.git
 //git 'https://github.com/GonzaloFuentes/WCARG.git'
 npm install
 //bat 'set @URLWCAG="https://www.eventbrite.com/"'
