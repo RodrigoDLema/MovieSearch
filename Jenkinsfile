@@ -30,12 +30,7 @@ pipeline {
     
      stage('WCARG') {
             steps {
-                git 'https://github.com/Yosoyquemero/WCARG.git'
-                //git 'https://github.com/GonzaloFuentes/WCARG.git'
-                bat 'npm install'
-                //bat 'set @URLWCAG="https://www.eventbrite.com/"'
-                //bat 'echo $URLWCAG'
-                bat 'node index.js https://www.eventbrite.com/'
+                bat './jenkins/scripts/WCARG.bat'
             }
         }
      
