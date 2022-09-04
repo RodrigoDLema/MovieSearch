@@ -1,4 +1,4 @@
-git https://github.com/Yosoyquemero/WCARG.git
+git clone https://github.com/Yosoyquemero/WCARG.git
 npm install
 
 node index.js https://www.eventbrite.com/
