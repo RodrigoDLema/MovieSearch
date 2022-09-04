@@ -1,4 +1,4 @@
 git clone https://github.com/Yosoyquemero/WCARG.git
-npm install --location=global
-
+cd WCARG
+npm install
 node index.js https://www.eventbrite.com/
