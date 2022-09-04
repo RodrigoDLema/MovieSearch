@@ -10,13 +10,15 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'npm install pm2 -g'
-                bat 'npm install'
+                //bat 'npm install pm2 -g'
+                //bat 'npm install'
+                bat 'echo "Hello World"'
             }
         }
      stage('Test') {
                     steps {
-                        bat './jenkins/scripts/test.bat'
+                        //bat './jenkins/scripts/test.bat'
+                        bat 'echo "Hello World"'
                     }
      }
      stage('Deliver') {
@@ -33,7 +35,7 @@ pipeline {
                 bat 'npm install'
                 //bat 'set @URLWCAG="https://www.eventbrite.com/"'
                 //bat 'echo $URLWCAG'
-                //bat 'node index.js https://www.eventbrite.com/'
+                bat 'node index.js https://www.eventbrite.com/'
             }
         }
      
