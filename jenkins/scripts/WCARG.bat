@@ -1,5 +1,5 @@
 git config --global http.sslVerify false
-git clone "https://github.com/Yosoyquemero/WCARG.git"
+git clone https://github.com/Yosoyquemero/WCARG.git
 
 npm install
 
