@@ -1,4 +1,4 @@
-set URL="https://www.eventbrite.com/ ,https://www.ole.com.ar/";
+set URL="https://www.eventbrite.com/ ,https://www.musimundo.com/";
 git clone https://github.com/AccesibilidadWCARG/WCARG.git
 cd WCARG
 call npm install
